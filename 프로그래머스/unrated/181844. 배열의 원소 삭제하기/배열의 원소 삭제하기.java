@@ -1,9 +1,5 @@
 class Solution {
-    public static void main(String[] args)
-	{
-		System.out.println("Hello World");
-	}
-	
+
 	public int[] solution(int[] arr, int[] delete_list) 
 	{
 		int indexCount = arr.length;
