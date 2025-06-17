@@ -16,7 +16,6 @@ class Solution {
             if(count == 500) return -1;
         }
         
-        System.out.println(count);
         int answer = count;
         return answer;
     }
