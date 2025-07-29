@@ -7,10 +7,8 @@ class Solution {
         int oneant = 0;
         
         fiveant = nowhp / 5;
-        nowhp -= fiveant * 5;
-        threeant = nowhp / 3;
-        nowhp -= threeant * 3;
-        oneant = nowhp;
+        threeant = (nowhp % 5) / 3;
+        oneant = ((nowhp % 5) % 3);
         
         return fiveant + threeant + oneant;
     }
